@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error should display Error 1`] = `
+<p
+  className="error-text"
+>
+  An error has appeared
+</p>
+`;

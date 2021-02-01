@@ -100,3 +100,9 @@
     display: block;
     text-align: center;
 }
+
+.card-country-img {
+    width: 100px;
+    display: block;
+    margin: auto;
+}

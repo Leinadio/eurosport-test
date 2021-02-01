@@ -1,3 +1,5 @@
+import { Country } from '../../services/graphql/headToHead';
+
 export interface PropsType {
   url: string;
   firstname: string;
@@ -9,5 +11,6 @@ export interface PropsType {
   weight: number;
   rank: number;
   points: number;
+  country: Country;
   last: boolean[];
 }

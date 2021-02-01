@@ -42,5 +42,9 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/react-test-renderer": "^17.0.0",
+    "jest": "26.6.0",
+    "react-test-renderer": "^17.0.1"
+  }
 }

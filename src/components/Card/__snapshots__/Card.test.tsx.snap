@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`showWinsLoses should display red dot 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="card-header"
+  >
+    <div
+      className="card-left"
+    >
+      <img
+        alt="jon snow"
+        className="card-img"
+        src="test"
+      />
+    </div>
+    <div
+      className="card-right"
+    >
+      <p
+        className="card-text"
+      >
+        <span
+          className="card-span"
+        >
+          Prenom:
+        </span>
+         
+        jon
+      </p>
+      <p
+        className="card-text"
+      >
+        <span
+          className="card-span"
+        >
+          Nom:
+        </span>
+         
+        snow
+      </p>
+      <p
+        className="card-text"
+      >
+        <span
+          className="card-span"
+        >
+          Shortname:
+        </span>
+         
+        js
+      </p>
+      <p
+        className="card-text"
+      >
+        <span
+          className="card-span"
+        >
+          Age:
+        </span>
+         
+        25
+      </p>
+      <p
+        className="card-text"
+      >
+        <span
+          className="card-span"
+        >
+          Sexe:
+        </span>
+         
+        man
+      </p>
+      <p
+        className="card-text"
+      >
+        <span
+          className="card-span"
+        >
+          Country:
+        </span>
+         
+        SUI
+      </p>
+      <img
+        alt="SUI"
+        className="card-country-img"
+        src="imgflag"
+      />
+    </div>
+  </div>
+  <div
+    className="card-content"
+  >
+    <h1
+      className="card-title"
+    >
+      Statistiques
+    </h1>
+    <p
+      className="card-text"
+    >
+      <span
+        className="card-span"
+      >
+        Height:
+      </span>
+       
+      185
+      m
+    </p>
+    <p
+      className="card-text"
+    >
+      <span
+        className="card-span"
+      >
+        Weight:
+      </span>
+       
+      8.5
+      Kg
+    </p>
+    <p
+      className="card-text"
+    >
+      <span
+        className="card-span"
+      >
+        Points:
+      </span>
+       
+      3200
+    </p>
+    <p
+      className="card-text"
+    >
+      <span
+        className="card-span"
+      >
+        Rank:
+      </span>
+       
+      1
+    </p>
+  </div>
+  <div
+    className="card-annexe"
+  >
+    <h1
+      className="card-title"
+    >
+      Wins/Loses
+    </h1>
+    <div
+      className="totalWinsLoses"
+    >
+      <p
+        className="card-text"
+      >
+        Total Wins: 
+        <span
+          className="card-span totalWinsLosesValue"
+        >
+          0
+        </span>
+      </p>
+      <p
+        className="card-text"
+      >
+        Total Loses: 
+        <span
+          className="card-span totalWinsLosesValue"
+        >
+          0
+        </span>
+      </p>
+    </div>
+    <div
+      className="last"
+    >
+      <span
+        className="dot-win"
+      />
+      <span
+        className="dot-win"
+      />
+      <span
+        className="dot-win"
+      />
+    </div>
+  </div>
+</div>
+`;

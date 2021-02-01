@@ -1,21 +1,22 @@
 import React, { useEffect, useState } from 'react';
 import { PropsType } from './types';
 import './styles.css'
+import { generateRandomNumber } from '../../utils/generateRandomNumber';
 
 function showWinsLoses(data: any) {
   return data.map((el: any) => {
     if (!el) {
       return (
-        <span className="dot-lose"></span>
+        <span key={`${generateRandomNumber()}`} className="dot-lose">{null}</span>
       )
     }
     return (
-      <span className="dot-win"></span>
+      <span key={`${generateRandomNumber()}`} className="dot-win">{null}</span>
     )
   })
 }
 
-export default function Card (props: PropsType) {
+export default function Card (props: PropsType): JSX.Element {
   const {
     url,
     firstname,
@@ -27,14 +28,15 @@ export default function Card (props: PropsType) {
     weight,
     rank,
     points,
-    last
+    last,
+    country
   } = props;
 
   const [totalWins, settotalWins] = useState(0);
   const [totalLoses, settotalLoses] = useState(0);
   useEffect(() => {
-    const totalWinsCounted = last.filter((el: boolean) => el).length
-    const totalLosesCounted = last.filter((el: boolean) => !el).length
+    const totalWinsCounted: number = last.filter((el: boolean): boolean => el).length
+    const totalLosesCounted: number = last.filter((el: boolean): boolean => !el).length
     settotalWins(totalWinsCounted)
     settotalLoses(totalLosesCounted)
   }, [last]);
@@ -55,6 +57,12 @@ export default function Card (props: PropsType) {
           <p className="card-text"><span className="card-span">Shortname:</span> {shortname}</p>
           <p className="card-text"><span className="card-span">Age:</span> {age}</p>
           <p className="card-text"><span className="card-span">Sexe:</span> {sex}</p>
+          <p className="card-text"><span className="card-span">Country:</span> {country.code}</p>
+          <img
+            src={country.picture.url}
+            alt={`${country.code}`}
+            className="card-country-img"
+          />
         </div>
       </div>
       <div className="card-content">
