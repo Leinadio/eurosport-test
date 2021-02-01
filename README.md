@@ -1,4 +1,4 @@
-# Eurospot Test
+# Eurosport Test
 
 ### To run the project 
 
