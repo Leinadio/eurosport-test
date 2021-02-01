@@ -1,0 +1,102 @@
+.card {
+    padding: 24px 0;
+    background: #e7e7e7;
+    margin-right: 16px;
+    margin-left: 16px;
+    margin-bottom: 32px;
+}
+
+
+.card-header {
+    display: flex;
+    flex-direction: column;
+}
+
+@media all and (min-width: 768px) {
+    .card-header {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+.card-left {
+    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-right {
+    margin-top: 24px;
+}
+
+.card-img {
+    width: 200px;
+    margin: auto;
+
+}
+
+.card-content {
+    margin-top: 24px;
+}
+
+.card-annexe {
+    margin-top: 24px;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial;
+    color: black;
+    margin-bottom: 8px;
+}
+
+.card-text {
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial;
+    color: black;
+    margin-bottom: 8px;
+}
+
+.card-span {
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.last {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 140px;
+    margin: auto;
+}
+
+.dot-lose {
+    width: 20px;
+    height: 20px;
+    display: block;
+    border-radius: 50%;
+    background: red;
+}
+
+.dot-win {
+    width: 20px;
+    height: 20px;
+    display: block;
+    border-radius: 50%;
+    background: green;
+}
+
+.totalWinsLoses {
+    width: 210px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.totalWinsLosesValue {
+    display: block;
+    text-align: center;
+}
